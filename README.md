@@ -7,6 +7,6 @@ To learn more about this course, please check below videos on my youtube channel
 
 [2. Introduction to Python and Course details. Part1](https://www.youtube.com/watch?v=_xMnILuMIzo)
 
-[3. Introduction to Python and Course details. Part2]()
+[3. Introduction to Python and Course details. Part2](https://www.youtube.com/watch?v=I6RQoLBz1DI&list=PLD06In0ejHWYhfRzBM28tqi4J5vsTrLI6&index=3&pp=iAQB)
 
 
