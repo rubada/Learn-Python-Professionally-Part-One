@@ -1,5 +1,4 @@
-![logo](https://github.com/rubada/Learn-Python-Professionally/assets/33088490/42505308-096f-4ec5-81da-bf7d70f37e3a)
-
+![logo](https://github.com/rubada/Learn-Python-Professionally/assets/33088490/b23196c5-4292-469a-a37d-61c144e09155)
 # Learn Python Professionally
 
 To learn more about this course, please check below videos on my youtube channel [Intuidemy](https://www.youtube.com/@Intuidemy/playlists).
