@@ -1,5 +1,5 @@
 # Learn Python Professionally
-To learn more about this course, please check below videos on [my youtube channel](https://www.youtube.com/@Intuidemy/playlists).
+To learn more about this course, please check below videos on my youtube channel[Intuidemy](https://www.youtube.com/@Intuidemy/playlists).
 
 [1. Course Introduction](https://www.youtube.com/watch?v=U6E6HTK4sqI)
 
