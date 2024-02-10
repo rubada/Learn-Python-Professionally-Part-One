@@ -4,3 +4,5 @@
 To learn more about this course, please check below course contents, all the videos related to this course are on my youtube channel [Intuidemy](https://www.youtube.com/@Intuidemy/playlists).
 
 [1. Learn Python Professionally. PART-1. Introduction.](https://www.youtube.com/playlist?list=PLD06In0ejHWYhfRzBM28tqi4J5vsTrLI6)
+
+[2. Learn Python Professionally. PART-1. Python Basics.](https://www.youtube.com/playlist?list=PLD06In0ejHWZgqOs0jbUprDt6Yi_FFQ4l)
