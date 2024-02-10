@@ -5,4 +5,6 @@ To learn more about this course, please check below course contents, all the vid
 
 [1. Learn Python Professionally. PART-1. Introduction.](https://www.youtube.com/playlist?list=PLD06In0ejHWYhfRzBM28tqi4J5vsTrLI6)
 
-[2. Learn Python Professionally. PART-1. Python Basics.](https://www.youtube.com/playlist?list=PLD06In0ejHWZgqOs0jbUprDt6Yi_FFQ4l)
+[2. Learn Python Professionally. PART-1. Python Basics. General](https://www.youtube.com/playlist?list=PLD06In0ejHWZgqOs0jbUprDt6Yi_FFQ4l)
+
+[2. Learn Python Professionally. PART-1. Python Basics. Strings](https://www.youtube.com/playlist?list=PLD06In0ejHWZmkDw8Zx5R6T3vN2kidkXw)
