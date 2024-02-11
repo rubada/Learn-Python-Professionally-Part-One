@@ -5,8 +5,8 @@ To learn more about this course, please check below course contents, all the vid
 
 [1. Introduction.](https://www.youtube.com/playlist?list=PLD06In0ejHWYhfRzBM28tqi4J5vsTrLI6)
 
-[2. Python Basics. Start Here](https://www.youtube.com/playlist?list=PLD06In0ejHWZgqOs0jbUprDt6Yi_FFQ4l)
+[2. Python Basics. Start Here.](https://www.youtube.com/playlist?list=PLD06In0ejHWZgqOs0jbUprDt6Yi_FFQ4l)
 
-[3. Python Basics. Strings](https://www.youtube.com/playlist?list=PLD06In0ejHWZmkDw8Zx5R6T3vN2kidkXw)
+[3. Python Basics. Strings.](https://www.youtube.com/playlist?list=PLD06In0ejHWZmkDw8Zx5R6T3vN2kidkXw)
 
 [4. Python Basics. Booleans and Operators.](https://www.youtube.com/playlist?list=PLD06In0ejHWZ9EiZ5HlMcfnWulhDNe0Iu)
