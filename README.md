@@ -10,3 +10,5 @@ To learn more about this course, please check below course contents, all the vid
 [3. Python Basics. Strings.](https://www.youtube.com/playlist?list=PLD06In0ejHWZmkDw8Zx5R6T3vN2kidkXw)
 
 [4. Python Basics. Booleans and Operators.](https://www.youtube.com/playlist?list=PLD06In0ejHWZ9EiZ5HlMcfnWulhDNe0Iu)
+
+[5. Python Basics. Lists.](https://www.youtube.com/playlist?list=PLD06In0ejHWawlU58xxPUnGQ2HJFvv-lP)
