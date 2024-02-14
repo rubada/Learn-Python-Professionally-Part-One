@@ -12,3 +12,7 @@ To learn more about this course, please check below course contents, all the vid
 [4. Python Basics. Booleans and Operators.](https://www.youtube.com/playlist?list=PLD06In0ejHWZ9EiZ5HlMcfnWulhDNe0Iu)
 
 [5. Python Basics. Lists.](https://www.youtube.com/playlist?list=PLD06In0ejHWawlU58xxPUnGQ2HJFvv-lP)
+
+[6. Python Basics. Tuples.](https://www.youtube.com/playlist?list=PLD06In0ejHWYsFXdxrjCRMP-Fk_9uIQ_N)
+
+[7.  Python Basics. Sets.](https://www.youtube.com/playlist?list=PLD06In0ejHWYFwzveUQlv4fbiDo2yo1ky)
