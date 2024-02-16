@@ -77,8 +77,8 @@ multi_num, divide_num = func(10)
 
 # 2. Instead of defining the global variables outside the function, using
 # closure to define nonlocal variables inside the outer function, and then
-# modyfy them inside the inner function, in this case achieving our goal
-# without changing the global variables, this will provide a readiable and
-# clean code and the code will be easy to debug.
+# modify them inside the inner function, in this case achieving our goal
+# without changing the global variables, will provide a readable and clean
+# code and the code will be easy to debug.
 # 3. Closures are used in Python Decorators, as it will be discussed in
 # section 4 later.
