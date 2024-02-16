@@ -20,3 +20,5 @@ To learn more about this course, please check below course contents, all the vid
 [8. Python Basics. Dictionaries.](https://www.youtube.com/playlist?list=PLD06In0ejHWY2LO7jy64KpZ6ECXxMbbQf)
 
 [9. Python Basics. if Statement](https://www.youtube.com/playlist?list=PLD06In0ejHWa_3sLYX6ghOa5RD_wJSza5)
+
+[10. Python Basics. Loops and Iterations](https://www.youtube.com/playlist?list=PLD06In0ejHWZ8I7Lj3EARNTqd2Jar7DBZ)
