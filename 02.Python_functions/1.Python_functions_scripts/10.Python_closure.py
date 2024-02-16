@@ -60,27 +60,19 @@ num = add_two_num(10)
 # call them will provide elegant and clean code, but if there many function
 # it is better to use classes with methods.
 
-def multiply(x, y, z):
-    return x * y * z
+def func(z):
+
+    def multiply(x, y):
+        return x * y * z
+
+    def division(x, y):
+        return x / y
+
+    return multiply, division
 
 
-def division(x, y):
-    return x / y
-
-
-def func(func):
-
-    def all_func(*args):
-        value = func(*args)
-        return value
-    return all_func
-
-
-multi = func(multiply)
-# print(multi(3, 2, 4))
-
-divide = func(division)
-# print(divide(2, 4))
+multi_num, divide_num = func(10)
+# print(f"multi_num = {multi_num(3, 5)}\ndivide_num = {divide_num(15, 3)}")
 
 
 # 2. Instead of defining the global variables outside the function, using
