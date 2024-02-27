@@ -16,14 +16,14 @@ my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 # print(my_list[4][1])
 # print(my_list[4][2])
 
-# Lists are iterables, loops can be used to iterate on lists objects.
+# Lists are iterable, loops can be used to iterate on list-objects.
 # for i in range(len(my_list)):
 #     print(my_list[i])
 
 # for item in my_list:
 #     print(item)
 
-# Loop over the sub list, as shown below:
+# Loop over the sub-list, as shown below:
 # for i in range(len(my_list[4])):
 #     print(my_list[4][i])
 
@@ -33,7 +33,7 @@ my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 
 # Lists Slicing
-# The same string rules are applied on lists
+# The same string rules are applied to lists.
 # a. a[start:stop]
 # Indexing will begin from "start" through "stop-1".
 

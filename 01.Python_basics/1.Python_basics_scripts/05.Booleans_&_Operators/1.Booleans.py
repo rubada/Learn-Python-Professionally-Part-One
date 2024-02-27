@@ -1,6 +1,6 @@
 # Booleans
 # Booleans return two values, True or False
-# Boolean often used in if else statements, which will be covered later.
+# Boolean is often used in if-else statements, which will be covered later
 # in the future
 
 # Examples
@@ -14,7 +14,7 @@ z = 9
 
 # We can use the bool() function to check for "True" or "False"
 # Almost every object in Python returns "True", unless they are 0 or an
-# empty objects, such as (emplty strings, empty lists, empty dictionaries,
+# empty objects, such as (empty strings, empty lists, empty dictionaries,
 # etc.), which they will return "False", as shown below:
 
 # All strings return True value unless it is not an empty string:

@@ -28,19 +28,19 @@ adding = add(3)
 # and outside the function or the class.
 
 
-# 1. Accessing global variable from inside a function
+# 1. Accessing global variables from inside a function
 def message():
     print("Printing the global text inside the Function", text)
 
 
 text = "Hello world"
-# print("Printing the global text outside the Function", text)
+print("Printing the global text outside the Function:", text)
 
 # Calling the function
 # message()
 
 
-# 2. Local and Global varaibles have the same name
+# 2. Local and Global variables have the same name
 # What if both variables have the same name?
 def message1():
     text1 = "I'm having fun"
@@ -52,14 +52,15 @@ text1 = "Hello world"
 # print(text1)
 
 # As mentioned above in local scope, local variables can be accessed only
-# inside the function, and both variables are two different objects, thus
-# their values will not change.
+# inside the function, so when defining two variables with the same name, both
+# variables are two different objects, thus their values will not change, as
+# shown in the above example.
 
 
 # 3. Modifying global variable from inside the function will raise an error.
 # If x is not changed, no error, and the variable can be accessed as discussed
 # in points 1.
-# let's check the example below:
+# Let's check point 3 with an example:
 
 # def subtract_num():
 #     x = 7 - x
@@ -72,13 +73,13 @@ text1 = "Hello world"
 # print(x)
 
 
-# It will raise an error saying local variable cannot be accessed, which means
-# that python is trying to access x as local variable and raised an error
+# It will raise an error saying the local variable cannot be accessed, which
+# means that python is trying to access x as local variable and raised an error
 # because x has no value.
 
-# How to solve this?
-# To change or reassigned variables, Python should be told that this variable
-# or variables are global, and this is done by using the global keyword.
+# How do we change x without raising an error?
+# To change or reassign variables, Python should be told that this variable
+# or variables are global, which is done by using the global keyword.
 def subtract_num():
     global x
     x = 8 - x
@@ -90,24 +91,25 @@ sub = subtract_num()
 # print("Variable changed inside the function", sub)
 # print("Variable changed outside the function", x)
 
-# x will be changed in the global scope, becuase using global keyword will
-# change the variable outside the function, (even if the object is immutable),
-# so beware when using global keyword to change or reassigned the varaibles.
+# As shown in the above example, x is changed or modified in the global scope,
+# because using the global keyword will change the variable inside and outside
+# the function, (even if the object is immutable), so beware when using the
+# global keyword to change or reassign the variables.
 
-# It is recommended to minimize the use of global variables because eccessive
-# using of global variable within many functions inside the code, it will make
-# the code difficult to understand and debug.
+# It is recommended to minimize the use of the global variables, inside the
+# functions, because excessive use of the global variable within many functions
+# inside the code will make it difficult to understand and debug.
 
 
-# Important note: there are two ways to change global variables within the
+# Important note: there are two ways to change the global variables within the
 # function:
-# 1. Using global keyword, the variable will changed even if it is mutable or
-# immutable.
+# 1. Using the global keyword, the variable will change even if it is mutable
+# or immutable.
 # 2. As discussed in part 6 (pass by object reference or pass by assignment)
 # if the variable is mutable.
 
 # Thus one must be careful when dealing with global variable
 
-
-# Global varaible are used accross python modules, check example in folder
-# global_variable_example, on how to use global variables accross modules.
+# Global variables are used across Python modules, check the example in the
+# folder global_variable_example, on how to use global variables across
+# modules.

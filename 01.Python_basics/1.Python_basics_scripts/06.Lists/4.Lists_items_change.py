@@ -1,7 +1,7 @@
 # Change Items in Lists
 my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 
-# changing items by index number
+# changing an item by using the index number
 # my_list[2] = "mouse"
 
 # print(my_list)

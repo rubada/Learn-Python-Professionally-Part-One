@@ -1,14 +1,15 @@
 # Functions
 # Docstrings can be passed inside the function, to describe the function task
-# and define the paramaters that are used in the function.
+# and define the parameters that are used in the function.
 # The docstrings are optional, but using them will be a good practice to
 # explain the function tasks.
-# example
+# Example
+
 def max_even_odd_num(my_sequnce):
-    """This funtion return the maximum even and odd numbers in a sequence.
+    """This function returns the maximum even and odd numbers in a sequence.
     Parameters:
         my_sequence:
-            A list or tuple or set of integer numbers.
+            A list, tuple, or set of integer numbers.
     Return:
             An integer number
     """
@@ -32,11 +33,12 @@ max_even_num, max_odd_num = max_even_odd_num(my_set)
 #       f"Odd Maximum Number= {max_odd_num}",
 #       sep="\n")
 
-# __doc__ dunder method can be use to print the docstrings of a function.
+# __doc__ dunder method can be used to print the docstrings of a function.
 print(max_even_odd_num.__doc__)
 
 
-# pass statement can be use, same as for while and if statements, in order
+# "pass" statement can be used, same as for while and if statements, in order
 # not to leave the function empty.
+
 def add():
     pass

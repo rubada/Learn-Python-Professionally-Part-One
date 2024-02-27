@@ -5,7 +5,7 @@
 # Why comments are important?
 # Comments are used to explain the code and make your code readable
 # and clear.
-# Coments are used to prevent execution of some lines in your code.
+# Comments are used to prevent the execution of some lines in your code.
 
 # "a" is a string variable
 # a = "This course is about Python"

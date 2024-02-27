@@ -1,6 +1,6 @@
 # How to access tuple items?
-# Of course by using indexing, the same indexing rules used
-# in strings and lists applied on tuples
+# Of course by using indexing, the same indexing rules used in strings and
+# lists applied on tuples
 
 # Examples
 my_tuple = (9, "cat", 9.7, "dog", [False, True, None], 9, (4, 1, "orange"))
@@ -8,13 +8,13 @@ my_tuple = (9, "cat", 9.7, "dog", [False, True, None], 9, (4, 1, "orange"))
 # print(my_tuple[6])
 # print(my_tuple[-3])
 
-# To access the sub-list or sub-tuple inside the main tuple, we use
-# double indexing:
+# To access the sub-list or sub-tuple inside the main tuple, we use double
+# indexing:
 # print(my_tuple[6][0])
 # print(my_tuple[6][1])
 # print(my_tuple[6][2])
 
-# Tuples are iterables, we can use loops with them
+# Tuples are iterables, we can use loops with them:
 # for i in range(len(my_tuple)):
 #     print(my_tuple[i])
 
@@ -31,7 +31,7 @@ my_tuple = (9, "cat", 9.7, "dog", [False, True, None], 9, (4, 1, "orange"))
 my_tuple = (9, "cat", 9.7, "dog", [False, True, None], 9, (4, 1, "orange"))
 
 # Tuples Slicing
-# The same strings and lists slicing rules are applied on tuples
+# The same strings and lists slicing rules are applied to tuples.
 # a. a[start:stop]
 # Indexing will begin from "start" through "stop-1".
 

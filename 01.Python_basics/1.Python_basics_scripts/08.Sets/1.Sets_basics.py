@@ -1,17 +1,17 @@
 # Sets
 # A set is a data type used to store a collection of data.
-# Sets are used to store numbers, strings and booleans and tuples.
+# Sets are used to store numbers, strings, Booleans, and tuples.
 # Sets rules
 # 1. Unordered
-# Items in a set doesn't have an order, that's why sets are unindexed
-# example:
+# Items in a set don't have an order, that's why sets are unindexed
+# Example:
 my_set = {"cat", 9.7, "dog", 9, (False, True)}
 # print(my_set)
 
 # 2. Items are unchangeable
 # Once the set is created, items in it can't be changed, because they are
-# unindexed, sets item can't be changed, but items can be added or removed.
-# example:
+# unindexed, sets items can't be changed, but items can be added or removed.
+# Example:
 # my_set[1] = 7
 # print(my_set)
 
@@ -31,7 +31,7 @@ my_set = {9, "cat", 9.7, "dog", 9, False, True}
 new_set = {3}
 # print(new_set)
 
-# Use set() contructure or function to define a new set.
+# Use set() constructor or function to define a new set.
 a = range(0, 10)
 b = set(a)
 # print(b)

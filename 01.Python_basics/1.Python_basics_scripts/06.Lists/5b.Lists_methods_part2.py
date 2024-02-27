@@ -1,5 +1,5 @@
 # Lists methods
-# Check below site for more information about all lists methods
+# Check the below site for more information about all list methods
 # https://docs.python.org/3/tutorial/datastructures.html
 # Or any site you prefer
 
@@ -8,8 +8,9 @@
 
 new_list = [20, 3, 5, 7, 9, 4, 50, 6]
 
-# The sort() is used to sort the same list, so it can't be
+# The sort() method is used to sort the same list, so it can't be
 # assigned to a variable
+
 # new_list.sort()
 # print(new_list)
 
@@ -27,14 +28,14 @@ sorted_list = sorted(new_list, reverse=True)
 # 5. copy(), list1 = list2, list = [:]
 # To copy a list it is better to use the copy method,
 # because it will assign it to a new object.
-# Let take an example
-
+# Let's take an example:
 
 new_list = [20, 3, 5, 7, 9, 4, 50, 6]
 
-# Copying the list as shown below, will result that both list
-# have the same memory address same object, in this case modifying
-# one list will modify the other.
+# Copying the list as shown below, will result in both list have the same
+# memory address same object, in this case modifying one list will modify
+# the other.
+
 copied_list = new_list
 # copied_list.append(100)
 # print(copied_list)
@@ -53,5 +54,5 @@ copied_list2.append(300)
 # print(new_list)
 
 # Note that when modifying a list using the lists methods, indexing,
-# slicing, it is done on the same object, with the same memory address.
+# and slicing, it is done on the same object, with the same memory address.
 # Unless assigned to a new variable.

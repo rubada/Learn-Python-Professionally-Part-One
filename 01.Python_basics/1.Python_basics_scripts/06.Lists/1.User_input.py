@@ -1,8 +1,9 @@
 # User Input
-# The user input is used inert data from the user and convert it to a string,
+# The user input is used inert data from the user and converted it to a string,
 # then this string is used in the code.
-# Use the input() to insert data to your Python code.
-# Let's take and example:
+# Use the input() to insert data into your Python code.
+# Let's take an example:
+
 # name = input("Please type your name: ")
 # print(f'Hi {name}, How are you?')
 
@@ -17,7 +18,7 @@
 # print("number type: ",  type(decimal_num))
 
 
-# # Input function can be used in loops
+# Input function can be used in loops
 # list_numbers = []
 # n = 1
 # while n != 0:

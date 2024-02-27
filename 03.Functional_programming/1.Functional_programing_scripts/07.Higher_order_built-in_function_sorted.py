@@ -1,30 +1,34 @@
 # Higher-order built-in functions
-# As mentioned before these function can accept function as their arguments and
-# or return function as an output.
+# As mentioned before these functions can accept a function or functions as
+# their arguments and/or return a function or functions as an output.
 # sorted()
-# it is used to sort an iterable, (set, list, tuple, dictionary)
+# it is used to sort an iterable, (set, list, tuple, dictionary).
 # Syntax:
 # sorted(iterable, key, reverse)
-# iterable set, list, tuple, dictionary.
-# key a function that can be used and applied on the sort function
-# reverse if True the iterable will be sorted in descending order
-# False the iterable is sorted in ascending order.
+# iterable: such as set, list, tuple, dictionary.
+# Key: is a function that can be used and applied to the sort function
+# Reverse: if True the iterable will be sorted in descending order, False
+# which is the default value the iterable is sorted in ascending order.
+
 my_dict = {"b": 4, "g": 9, "e": 2, "a": 7, "c": 1}
 sort_dict = sorted(my_dict)
 
-# This will return a list of dictionary keys
+# This will return a list of the dictionary keys:
 # print(sort_dict)
 
-# To get the dictionary sorted
+# To sort a dictionary, use the items() method:
 # print(my_dict.items())
 
-# Sorting the dictionary by its keys
+# Then sorting the dictionary by its keys:
 sort_dict1 = dict(sorted(my_dict.items()))
 # print(sort_dict1)
 
 
-# Sorting the dictionary by its values, using key parameter
-# x is the subtuples inside the main list my_dict.items()
+# Or sorting the dictionary by its values, using the key parameter
+# of the sorted() function.
+# The x variable, of the lambda function, is the subtuple inside the main
+# list my_dict.items(), and x[1] is the 2nd item in the subtuple, which is
+# the dictionary value.
 sort_dict2 = dict(sorted(my_dict.items(), key=lambda x: x[1]))
 # print(sort_dict2)
 
@@ -41,7 +45,7 @@ personal_data = [
 age_sort = sorted(personal_data, key=lambda x: x["age"], reverse=True)
 # print(age_sort)
 
-# sorting a list of tuples
+# Sorting a list of tuples
 list_tuples = [('b', 4), ('g', 9), ('e', 2), ('a', 7), ('c', 1)]
 string_sort = sorted(list_tuples)
 num_sort = sorted(list_tuples, key=lambda x: x[1])
@@ -49,7 +53,7 @@ num_sort = sorted(list_tuples, key=lambda x: x[1])
 # print(num_sort)
 
 
-# A user defined function can be used with sorted function
+# A user-defined function can be used with sorted() function:
 def even_num(x):
     return x % 2
 
@@ -62,12 +66,12 @@ numbers_sort_odd = sorted(numbers, key=lambda x: not x % 2)
 
 # print(numbers_sort)
 
-# The result is sorting the even numbers first then the odd number
+# The result is sorting the even numbers first then the odd numbers:
 # print(numbers_sort_even)
 # print(numbers_sort_odd)
 
 # To sort the even and odd numbers and then sort the even numbers first and
-# then the odd number:
+# then the odd numbers:
 sort_even_odd = sorted(sorted(numbers), key=lambda x: x % 2)
 # print(sort_even_odd)
 

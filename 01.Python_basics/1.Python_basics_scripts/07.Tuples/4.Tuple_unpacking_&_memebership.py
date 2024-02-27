@@ -1,4 +1,4 @@
-# Using memebership operators with tuples
+# Using membership operators with tuples
 my_tuple = (9, "cat", 9.7, "dog", [False, True, None], 9, (4, 1, "orange"))
 
 # if "cat" in my_tuple:
@@ -18,6 +18,6 @@ d = new_tuple[6]
 
 # print(a, b, c, d, sep="\n")
 
-# Sequence unpacking
+# 2. Sequence unpacking
 a1, b1, c1, *d1 = new_tuple
 print(a1, b1, c1, d1, sep="\n")

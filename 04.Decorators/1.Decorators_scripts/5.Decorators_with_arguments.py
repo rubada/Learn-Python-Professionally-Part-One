@@ -1,9 +1,10 @@
 # Decorators with arguments
-# As shown in previous section when using decorators, the decorator will only
-# take a single parameter in the outer_decorator, and this parameter is the
-# function which is the decorator is used on, and the parameters in the
-# inner_decorator will modify this decorated function, and these the parameters
-# are the functions parameters, as shown below:
+# As shown in the previous section when using decorators, the decorator will
+# only take a single parameter in the outer_decorator, and this parameter is
+# the function that the decorator is used on, and the parameters in the
+# inner_decorator will modify this decorated function and these parameters are
+# the function's parameters, as shown below:
+
 def outer_decorator(func):
 
     def inner_decorator(*arg, **kwargs):
@@ -19,8 +20,8 @@ def function_ex(parameters):
     pass
 
 
-# Let check what will happen if another parameters are used insteat of the
-# function
+# Let's check what will happen if other parameters are used instead of the
+# function:
 def string_deco(a, b):
     def wrapper(func):
         x = f"{func()}. {a} {b}"
@@ -28,7 +29,7 @@ def string_deco(a, b):
     return wrapper
 
 
-# This how the decorator with argument is written
+# This how the decorator with arguments is written:
 @string_deco("This is", "a Python course")
 def string_func():
     return "Hello"
@@ -52,7 +53,7 @@ def num_deco(a, b):
     return wrapper
 
 
-# This how the decorator with argument is written
+# This how the decorator with arguments is written:
 @num_deco(2, 4)
 def num_func():
     return 7
@@ -62,9 +63,10 @@ def num_func():
 # print(num_func)
 
 
-# If the function has parameters, when calling the function object, as
+# If the function has parameters when calling the function object, as
 # mentioned above, then the arguments can't be assigned to the function
-# object, and this will raise an error as shown below:
+# object and this will raise an error as shown below:
+
 # @string_deco("This is", "Python course")
 # def string_funcp(x):
 #     return "Hello"
@@ -73,7 +75,7 @@ def num_func():
 # print(string_funcp)
 
 
-# But how can more parameters or agruments be added to a decorator, and call
+# But how can more parameters or arguments be added to a decorator, and call
 # the function with its parameter?
 # To solve the above issue the decorator should have three nested functions,
 # as shown below:
@@ -94,7 +96,7 @@ def string_func1(x):
 # print(string_func1("World"))
 
 
-# Another example
+# Another example:
 def multiply_add(x, y):
     def inner_deco(func):
         def wrapper(*args, **kwargs):
@@ -121,4 +123,4 @@ result = multiply_add(2, 3)(add1)
 print(result(1, 2))
 
 # There is also class decorator, which adds a class as decorator to a function,
-# and its provide a clean code when using parameters.
+# and it provides a clean code when using parameters.

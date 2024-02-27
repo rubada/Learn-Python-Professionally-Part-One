@@ -1,4 +1,4 @@
-# String slicing is a method to create sub-string from the original string.
+# String slicing is a method to create a sub-string from the original string.
 
 a = "Hello World"
 

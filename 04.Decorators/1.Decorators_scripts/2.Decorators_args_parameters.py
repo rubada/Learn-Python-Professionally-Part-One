@@ -1,7 +1,7 @@
 # Decorators
-# How to use decorators with parameter?
+# How to use decorators with parameters?
 # The number of parameters in the wrapper should be the same as the number
-# of parameters in the function as shown below
+# of parameters in the function as shown below:
 
 def multiply0(func):
     def wrapper(a, b):
@@ -18,15 +18,14 @@ def adding(a, b):
 # print(adding(3, 5))
 
 
-# The above decorator will only used with functions that have two parameters,
-# in this case this decorator use will be limited.
-# Then how can the decorators be used with functions that has different number
+# The above decorator will only be used with functions that have two
+# parameters, in this case, this decorator's use will be limited.
+# Then how can the decorators be used with functions that have different number
 # of parameters?
 # This can be solved by using arbitrary arguments (*args and **kwargs) inside
-# the wrapper function, in this case the decorator will be used with many
+# the wrapper function, in this case, the decorator will be used with many
 # functions regardless of the number of parameters or even functions that don't
 # have parameters. As shown in below example:
-
 
 def multiply(func):
     def wrapper(*args, **kwargs):
@@ -58,6 +57,6 @@ def digits():
 
 # print(digits())
 
-# As shown above the multiply decorator is used with different functions which
-# have different number of parameters, because of the use of arbitrary
+# As shown above, the multiply decorator is used with different functions which
+# have different numbers of parameters, because of the use of arbitrary
 # arguments inside the wrapper

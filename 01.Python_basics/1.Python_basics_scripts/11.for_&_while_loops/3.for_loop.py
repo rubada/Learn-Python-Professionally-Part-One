@@ -14,7 +14,7 @@ for i in num1:
         add = f"{i} + {j} = {i + j}"
         print(add)
 
-# Nested loops have advantages and distadavntages, you can check them by
-# yourself, but the most important disadavntage is when using many nesting
-# loops, then it will be difficult to understand by others, and they consume
-# more memory when used with large data.
+# Nested loops have advantages and disadvantages, you can check them by
+# yourself, but the most important disadvantage is when using many nesting
+# loops, then it will be difficult to understand, and they consume more memory
+# when used with large data.

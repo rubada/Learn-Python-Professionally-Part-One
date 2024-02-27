@@ -6,12 +6,15 @@
 # 4. Arbitrary arguments (*args and **kwargs)
 
 # 4. Arbitrary arguments (*args and **kwargs) if number of arguments is unknown
-# arbitrary arguments can be used because when using this type of araguments
+# arbitrary arguments can be used because when using this type of arguments
 # any number of arguments can be passed when the function is called.
 
+
 # There are two types of arbitrary arguments
-# 1. *args (Positional Araguments) or can be named with any other name, single
-# * should be used before this name to define it as positional arguments.
+# 1. *args (Positional Arguments), the args name can be changed with any other
+# name, single * (asterisk) should be used before this name to define it as
+# positional argument.
+
 def create_sentence(*args):
     sentence = ""
     for word in args:
@@ -25,8 +28,9 @@ sent_tuple, sentence = create_sentence("Hello", "this", "is", "a", "string")
 # print(sentence)
 
 
-# 2. **kwargs (Keyword Arguments) or can be named any other name, double **
-# should be used before this name to define it as keyword arguments
+# 2. **kwargs (Keyword Arguments) the kwargs name can be changed with any other
+# name, double ** (asterisk) should be used before this name to define it as
+# keyword argument.
 def create_sentence1(**kwargs):
     sentence = ""
     for value in kwargs.values():
@@ -42,8 +46,9 @@ sent_dict, sentence1 = create_sentence1(word1="Hello", word2="this",
 # print(sentence1)
 
 
-# Arbitrary arguments can be used with other argument, such as positional,
-# default and keyword arguments
+# Arbitrary arguments can be used with other arguments, such as positional,
+# default and keyword arguments.
+
 def create_sentence2(word1, word2, *args, **kwargs):
     sentence = word1 + " " + word2 + " "
     for value in args:
@@ -61,8 +66,8 @@ sentence2 = create_sentence2("Hello",
 # print(sentence2)
 
 
-# Note: when define a function with parameters, the keyword arguments should
-# be assigned after the positined arguments
+# Note: when defining a function with parameters, the keyword arguments should
+# be assigned after the positioned arguments.
 def create_sentence3(word1, word2, word3, word4, word5):
     sentence = ""
     sentence = f"{word1} {word2} {word3} {word4} {word5}"
@@ -73,7 +78,7 @@ def create_sentence3(word1, word2, word3, word4, word5):
 #                              word4="a",
 #                              word5="string3")
 
-# Calling or invoking the function as shown below will raise an erro
+# Calling or invoking the function as shown below will raise an error:
 # sentence3 = create_sentence3(word1="Hello",
 #                             "this", "is",
 #                             word4="a",

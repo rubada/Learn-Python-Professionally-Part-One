@@ -1,13 +1,13 @@
-# String Mothods
-# They are buitl-in methods used for string modifying or return True or False,
-# we will learn most used methods.
-# To know more about these mehtods check Python documentation or any other site
+# String Methods
+# They are built-in methods used for string modifying or returning True or
+# False, we will learn the most used methods.
+# To know more about these methods check Python documentation or any other site
 # that you prefer:
 # https://docs.python.org/3/library/stdtypes.html#string-methods
 
 a = "Python is a Wide. used Programming. Language"
 
-# Note, methods (for lists, strings, dictionary etc.) are written on the right
+# Note, methods (for lists, strings, dictionary, etc.) are written on the right
 # side of the object after the ".", as shown in below syntax:
 # object.method()
 

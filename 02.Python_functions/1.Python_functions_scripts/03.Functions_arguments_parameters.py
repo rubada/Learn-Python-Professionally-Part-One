@@ -17,8 +17,10 @@ x = 23
 
 
 # 2. Keyword arguments (named arguments): are arguments that use the parameters
-# names when calling the function and assign it to the required values, in this
-# case the order of the arguments when calling the function doesn't matter.
+# names when calling the function and assigning it to the required values, in
+# this case the order of the arguments when calling the function doesn't
+# matter.
+
 def multiply_three_lists(a, b, c):
     list_multiplied = []
     for i in range(len(a)):
@@ -34,13 +36,14 @@ z = [5, 6, 8]
 # print(multiply_three_lists(b=y, c=z, a=x))
 
 # Note: Different data types can be set as function arguments such as numbers,
-# strings, lists, tuples, sets, and dictionaries etc., even a function can be
+# strings, lists, tuples, sets, and dictionaries, etc., even a function can be
 # passed as an argument.
 
 
 # 3. Positional arguments: are arguments where the order of the arguments
-# should be the same as the parameters defined in the function, if Keyword
+# should be the same as the parameters defined in the function, if the Keyword
 # arguments are not used.
+
 def name_age(name, age):
     data = f"My name is {name} and my age is {age}"
     return data

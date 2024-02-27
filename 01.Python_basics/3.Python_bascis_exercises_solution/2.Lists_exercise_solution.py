@@ -1,7 +1,6 @@
-# 1st question:
-# Use input() function to write a code asking
-# for recovery email: such as john.smith@email.com
-# and then print the output as shown below:
+# 1st Question:
+# Use the input() function to write a code asking for a recovery email: such as
+# john.smith@email.com, and then print the output as shown below:
 # "Your recovery email is: jo********@email.com
 
 email = input("Enter recovery email:")
@@ -17,13 +16,12 @@ recovery_email = ("Your recovery email is: "
 print(recovery_email)
 
 
-# In the following exercises try to guess the output before
-# running the code
+# In the following exercises try to guess the output before running the code
 
 new_list = [3, 6, "green", 9.5, "apple", ["red", True, "banana"],
             "banana", False, "orange", "banana"]
 
-# 2nd question:
+# 2nd Question:
 # What is the output of the following:
 
 a = new_list[6::-3]
@@ -34,7 +32,7 @@ c = new_list[-6:-1:4]
 
 d = new_list[5:7]
 
-# 3rd question
+# 3rd Question
 # Guess the final list after applying the following methods?
 new_list.remove("banana")
 new_list.pop()

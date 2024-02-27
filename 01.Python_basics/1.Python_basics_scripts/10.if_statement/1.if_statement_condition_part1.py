@@ -1,6 +1,6 @@
-# What is if statement?
-# If statement is a condition expression, the output of the condition
-# expression output is True or False, the are many Python objects that
+# What is an if-statement?
+# If-statement is a condition expression,  where the output of this condition
+# expression is either True or False, the are many Python objects that
 # return True or False, and they can be used with if statement such as:
 # 1. Comparison Operators (==, !=, >, <, >=, <=)
 # 2. Logical Operators (and, or, not)
@@ -10,7 +10,7 @@
 # 6. Also empty "", [], {}, () and 0 return False, and the opposites return
 # True
 
-# How to use if statement?
+# How to use if-statement?
 a = 400
 b = 800
 
@@ -20,7 +20,7 @@ if a < b:
     a = a + b
     # print(f"new a = {a}")
 
-# or if there are other condition to be satisfied, else can be used
+# or if there are other conditions to be satisfied, "else" can be used.
 # a now equal 1200
 
 # print(f"a = {a} ", f"b = {b}", sep="\n")
@@ -32,7 +32,7 @@ else:
     b = b + 70
     # print(f"new b = {b}")
 
-# or if there are more than two condition then elif is used
+# or if there are more than two condition then "elif" is used.
 # a = 1200 and b = 870 after using above condition
 
 c = 674

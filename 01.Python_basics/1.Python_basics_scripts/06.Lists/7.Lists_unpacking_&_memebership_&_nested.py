@@ -1,4 +1,4 @@
-# Using memebership operators with lists
+# Using membership operators with lists
 my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 
 # if "cat" in my_list:

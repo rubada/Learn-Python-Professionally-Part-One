@@ -1,4 +1,4 @@
-# Dictionay Copying
+# Dictionary Copying
 # To copy a dictionary, use the copy method, don't use dict1 = dict2, the
 # result will be the same object, where any change in dict1 will change dict2
 my_dict = {"color": "red", "fruit": "banana", "year": 1988,
@@ -6,12 +6,12 @@ my_dict = {"color": "red", "fruit": "banana", "year": 1988,
 my_dict1 = my_dict.copy()
 # print(my_dict1)
 
-# or dict() function can be used to copy a dictionary
+# or dict() function can be used to copy a dictionary:
 my_dict2 = dict(my_dict)
 # print(my_dict2)
 
 # Nested dictionaries
-# Nesting is adding many dictionaries inside one main dictionary
+# Nesting is adding many dictionaries inside one main dictionary:
 person1 = {"name": "John",
            "age:": 22,
            "country": "USA"}

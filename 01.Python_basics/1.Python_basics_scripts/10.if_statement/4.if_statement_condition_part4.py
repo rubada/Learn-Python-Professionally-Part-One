@@ -1,5 +1,5 @@
-# Nested if statement, if statement can be used inside another
-# if statement
+# Nested if-statement
+# if statement can be used inside another if-statement
 x2 = 500
 y2 = 699
 z2 = 533
@@ -18,8 +18,9 @@ else:
 
 # print(my_list2)
 
-# pass can be used in if statement in order not to leave the if
-# statement empty, and then one can come back later and fill it.
+# "pass" can be used in if-statement in order not to leave the if-statement
+# empty, and then one can come back later and fill it.
+
 x3 = 500
 y3 = 699
 

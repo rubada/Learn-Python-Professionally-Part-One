@@ -1,7 +1,8 @@
-# Question one
-# Show the shape below, where the 0 is going to be " "(empty space),
-# and the 1 is going to be "*" (astrisk sign).
+# 1st Question
+# Show the shape below, where the 0 is going to be " "(space),
+# and the 1 is going to be "*" (asterisk sign).
 # This will reveal an image!
+
 shape = [
   [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
   [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0],
@@ -14,7 +15,8 @@ shape = [
 ]
 
 # Solution 1
-# define a new variable if the shape is to be stored and used later
+# Define a new variable if the shape is to be stored and used later.
+
 Final_shape = ""
 for row in shape:
     photo_part = ""
@@ -29,7 +31,8 @@ for row in shape:
 
 
 # Solution 2
-# if the shape is to be printed directly
+# If the shape is to be printed directly.
+
 for row in shape:
     for item in row:
         if item == 0:
@@ -43,9 +46,9 @@ for row in shape:
     print(" ")
 
 
-# Question two
-# Given the following list, create one list that has two nested list one is
-# even numbers the other is odd numbers, as shown below
+# 2nd Question
+# Given the following list (numbers), create one list that has two nested
+# lists, one has even numbers the other has odd numbers, as shown below:
 # numbers = [22, 45, 62, 86, 93, 55, 72, 12, 13, 89]
 # output: [[22, 62, 86, 72, 12], [45, 93, 55, 13, 89]]
 
@@ -62,10 +65,11 @@ for i in range(2):
 # print(numbers_even_odd)
 
 
-# Question 3
-# Update below code taking in account the following notes:
-# 1. Print an error statement if the user input is not an integr
-# 2. Remove the break statement when the user input is 0
+# 3rd Question
+# Update the below code taking into account the following notes:
+# 1. Print an error statement if the user input is not an integer
+# 2. "print("To break please enter 0")" shouldn't be printed when the user
+# input is 0.
 # 3. The final list shouldn't contain 0
 
 # Solution
@@ -73,7 +77,7 @@ list_numbers = []
 n = 1
 while n != 0:
     # eval() will check if the expression is a valid Python statement then it
-    # will excuted.
+    # will execute it.
     x = eval(input("Please enter an integer number:"))
     if isinstance(x, int):
         if x != 0:

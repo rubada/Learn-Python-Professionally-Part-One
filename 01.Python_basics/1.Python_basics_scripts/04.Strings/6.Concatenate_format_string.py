@@ -5,7 +5,7 @@ sent = a + " 3 " + b + " " + str(5)
 # print(sent)
 
 # 2. String formatting
-# There are two ways to format the string
+# There are two ways to format the string:
 # 1. Using the format() method
 year = "2023"
 day = "24"

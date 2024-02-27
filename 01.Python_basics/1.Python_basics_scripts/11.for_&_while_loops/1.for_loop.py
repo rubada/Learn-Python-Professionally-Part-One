@@ -1,6 +1,6 @@
-# for loop
-# A for loop is used to iterate on an iterable, such as lists, tuples,
-# sets, dictionaies and strings etc.
+# "for" loop
+# A "for" loop is used to iterate on an iterable, such as lists, tuples,
+# sets, dictionaries, and strings, etc..
 my_string = "This a Python course"
 # for letter in my_string:
 #     print(letter)
@@ -21,8 +21,8 @@ my_list = my_string.split()
 #     print(my_list[i])
 
 
-# As Shown above range() function can be used in for loop
-# len() function, range can be used in diffferent ways
+# As Shown above range() function can be used in "for" loop
+# len() function, range can be used in different ways
 # range(start, stop-1, step)
 # for i in range(10):
 #     print(i)
@@ -34,7 +34,7 @@ my_list = my_string.split()
 # for i in range(2, 10, 3):
 #     print(i)
 
-# for loop can be used with if statment
+# "for" loop can be used with if-statement
 my_list = ['This', 'a', 'Python', 'course']
 
 for item in my_list:

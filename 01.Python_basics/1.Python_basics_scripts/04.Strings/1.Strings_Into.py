@@ -1,5 +1,5 @@
 # What are strings?
-""" Strings are built-in class of data structure and it is imutable and use
+""" Strings are built-in classes of data structure, it is immutable and uses
 the "Unicode Characters" """
 
 # Unicode Characters represent characters and symbols of different languages.

@@ -1,9 +1,10 @@
 # Lists
-# A list is a built in sequence, that is used to store a collection of data.
-# In other programing they are sometimes called array.
+# A list is a built-in sequence, that is used to store a collection of data.
+# In other programming they are sometimes called arrays.
 # We can store any type of data in a list such as:
-# Numbers, strings, booleans, sets, dictionaries, tuples and lists.
+# Numbers, strings, Booleans, sets, dictionaries, tuples, and lists.
 # Example:
+
 my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 # print(my_list)
 
@@ -11,21 +12,22 @@ my_list = [9, "cat", 9.7, "dog", [False, True, None], 9]
 # print(type(my_list))
 
 # List rules:
-# 1. Lists are ordered, when adding values to a list it will be added
+# 1. Lists are ordered, when adding values to a list they will be added
 # at the end of the list
 # 2. Lists are mutable, objects inside a list, can be modified, and can be
 # added or removed.
-# 3. Lists can have duplicates objects.
+# 3. Lists can have duplicate objects.
 
 # We can use the len() function to get the list length
 # print(len(my_list))
 
 # How can we define a new list?
-# 1. Using the square brackets [] by assign it to a variable, creating an empty
-# list and then it can be filled with any type of data.
+# 1. Using the square brackets [] by assigning it to a variable, creating an
+# empty list and then it can be filled with any type of data.
+
 a = []
 
-# 2. Using the list() contructure or function to define a new list
+# 2. Using the list() constructor or function to define a new list.
 b = list()
 
 # we can use the list() to change a different data type to list

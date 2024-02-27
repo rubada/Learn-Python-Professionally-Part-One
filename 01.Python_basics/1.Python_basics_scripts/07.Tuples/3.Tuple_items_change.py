@@ -1,8 +1,8 @@
 # Change Items in Tuples
 # As mentioned before tuples are immutable, once they are created,
 # then they can't be changed, then how tuples can be changed?
-# 1. Change the tuple to list,
-# 2. Do the changes, by applying lists methods or using indexing
+# 1. Change the tuple to a list,
+# 2. Do the changes, by applying list methods or using indexing
 # and slicing.
 # 3. Then change the list back to a tuple
 # Example
@@ -20,6 +20,6 @@ add_tuple = ("black",)
 new_tuple += add_tuple  # a = a + 1 same as a+=1
 print(new_tuple)
 
-# Note that when changing a tuple using the above methods,
-# we create a new objects, because tuples are immutable.
-# Each object has different memory address.
+# Note that when changing a tuple using the above methods, we create a new
+# object because tuples are immutable.
+# Each object has a different memory address.

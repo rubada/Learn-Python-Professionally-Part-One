@@ -18,7 +18,7 @@ y = 6
 # y -= 1
 # print(y)
 
-# Comparison Operators ==, !=, >, <, >=, <=, used in if statement and
+# Comparison Operators ==, !=, >, <, >=, <=, used in if-statement and
 # other logical or function and method
 a = 7
 b = 8
@@ -28,7 +28,7 @@ b = 8
 # print(7 >= a)
 # print(8 <= b)
 
-# Logical Operators, used in if statement and other logical function and
+# Logical Operators, used in if-statement and other logical function and
 # methods
 # print(a == b and b > a)
 # print(a <= b or b <= a)
@@ -51,6 +51,6 @@ e = "r" not in c
 # print(5 ^ 9)
 # print(5 << 2)
 
-# ~4 means not 4, which change all zeros to ones and all the ones to zeros and
+# ~4 means not 4, which changes all zeros to ones and all the ones to zeros and
 # return the real number
 # print(~4)

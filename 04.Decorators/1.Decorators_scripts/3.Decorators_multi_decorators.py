@@ -1,5 +1,5 @@
 # Decorators
-# Multiple decorators can be used to wrap one function
+# Multiple decorators can be used to wrap one function.
 
 def multiply_add(func):
     def wrapper(*args, **kwargs):
@@ -53,9 +53,9 @@ divide_num = division(mutli_add_num)
 # print(divide_num(2, 5))
 
 
-# Beware when using more than decorator on a function to take in account the
-# order of the decorators, which will wrap the function first, second, third
-# etc., as shown below
+# Beware when using more than one decorator on a function to take into account
+# the  order of the decorators, which will wrap the function first, second,
+# third, etc., as shown below:
 
 # @etc.
 # @third

@@ -3,8 +3,9 @@
 # many arguments, but it has one expression which is evaluated and returned.
 # Instead of using def to define the function, the lambda keyword is used.
 # Syntax
-# lambda agruments: expression
-# Example
+# lambda arguments: expression
+# Example:
+
 hello = lambda: "Hello World"
 # print(hello())
 
@@ -19,14 +20,15 @@ max_num = lambda x, y: x if x > y else y
 # print(max_num(4, 8))
 
 
-# As Shown above when using flake8, (flake8 is a python tool used to to check
-# the style and quality of the python code), flake8 will give an error when
-# assigning lambda to variable. Because when debugging the code the lambdas
-# will be showm as <lambda> in tracebacks (tracing the same name), where
+# As Shown above when using flake8, (flake8 is a Python tool used to check
+# the style and quality of the Python code), flake8 will give an error when
+# assigning lambda to a variable. Because when debugging the code the lambdas
+# will be shown as <lambda> in tracebacks (tracing the same name), where
 # functions will display the function’s name. Although this will not give an
-# error when running the code, but it will raise a debugging issue when
-# defining many lambdas. In this case it is better to define a function
-# (def funcname) instead of using lambda keyword.
+# error when running the code, it will raise a debugging issue when
+# defining many lambdas. In this case, it is better to define a function
+# (def funcname) instead of using the lambda keyword.
 
-# In the next sections we will show how to use lambda with list comprehensions
-# and higher order built-in functions.
+
+# In the next section, we will show how to use lambda with list comprehensions
+# and higher-order built-in functions.

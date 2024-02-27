@@ -21,16 +21,15 @@ def add(a, b):
     return a + b
 
 
-# lets now use the __name__ with the add()
+# Lets now use the __name__ with the add()
 # print(add.__name__)
 # print(add.__doc__)
 
-# it will return the decorator wrapper name and docstrings
-# to remove this issue Python provide the wrap decorator from the functool
-# module to solve this issue
-# @wraps takes a function to be decorated and allows to access the
+# It will return the decorator wrapper name and docstrings to remove this
+# issue Python provides the wrap decorator from the functool module to solve
+# this issue @wraps takes a function to be decorated and allows to access the
 # pre-decorated function’s properties in the decorator, such as the original
-# function name, docstring, arguments list, etc.
+# function name, docstring, arguments list, etc...
 
 from functools import wraps
 

@@ -1,20 +1,21 @@
 # Escape Characters:
-# Are used to insert special charaters lines etc. into a string or code by
+# Are used to insert special characters lines etc. into a string or code by
 # using \ Backslash.
 # There are many escape characters used in Python, and we will discuss the
 # most used.
-# There are mnay sites explain the esacpe characters in python, and show
+# There are many sites that explain the escape characters in Python, and show
 # how to use them, you can check them out.
+
 # 1. \" or \'
-# The back slash is used to allow us use single or double quotes inside the
+# The backslash is used to allow us to use single or double quotes inside the
 # string as shown below:
-a = 'I\'m taking this python course'
+a = 'I\'m taking this Python course'
 # print(a)
 
 b = "This course is about \"Python\""
 # print(b)
 
-# Using differnet quotes (single or doubles) as string quotes and quotes inside
+# Using different quotes (single or doubles) as string quotes and quotes inside
 # the string, will not give and error as shown below.
 # c = "This course is about 'Python'"
 c = 'This course is about "Python"'

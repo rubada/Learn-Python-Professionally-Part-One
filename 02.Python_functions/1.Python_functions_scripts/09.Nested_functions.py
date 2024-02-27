@@ -1,8 +1,8 @@
 # Nested Function or Inner Function
 # A function which is defined inside another function is called an inner
-# funtion or nested function.
+# function or nested function.
 # Inner function is protected from everything happening outside the function
-# this called encapsulation.
+# this is called encapsulation.
 def outerFunc():
     print("This is the outer function")
 
@@ -26,7 +26,7 @@ def outerFunc1(text):
 # outerFunc1("Hello World!")
 
 
-# return keyword can be used inside the outer function to return the inner
+# "return" keyword can be used inside the outer function to return the inner
 # function, and also it can be used inside the inner function to return its
 # result
 def outerFunc2(text):
@@ -41,13 +41,13 @@ def outerFunc2(text):
 
 # In nested function the outer function will return the inner function, in
 # order to get the result returned from the inner function, because as
-# mentioned above the inner function are protected from everything happening
+# mentioned above the inner functions are protected from everything happening
 # outside.
 
 
 # Scope of a variable
 # As mentioned in part 8 variables scope, there is a third scope called
-# nonlocal scope, which used in a nested function, as shown below:
+# nonlocal scope, which is used in a nested function, as shown below:
 def outerFunc3():
     def innerFunc3():
         text = "local"
@@ -70,8 +70,8 @@ def outerFunc4():
 # print(outerFunc4())
 
 
-# In order to modify the local variable inside the inner function, nonlocal
-# keyword should be used, if nonlocal keyword is not used inside the inner,
+# To modify the local variable inside the inner function, nonlocal
+# keyword should be used if the nonlocal keyword is not used inside the inner,
 # the UnboundLocalError will be raised.
 def outerFunc5():
     num = 5

@@ -1,7 +1,7 @@
-# Question 1
+# 1st Question
 # Write a decorator that when used on a recursive function returns the
-# function name, docstrings and the function result.
-# Use the follwing function
+# function name, docstrings, and function arguments as a result.
+# Use the following function
 # def factorial(x):
 #     """This function returns the factorial number of the input
 #     Inputs
@@ -20,13 +20,13 @@
 #     Inputs
 #        x is an integer number
 #     return
-#        Factorial of a number as integer number
+#        Factorial of a number as an integer number
 # Factorial value = 24
 
 
-# Question 2
+# 2nd Question
 # Write a decorator to validate the function arguments as integers, if
-# arguments are not integer the decorator should return a message that
+# arguments are not integers the decorator should return a message that
 # the arguments should be integers.
 # Use the following function:
 # def fibonacci_nums(x):

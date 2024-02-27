@@ -1,9 +1,10 @@
-# while loop
-# while loop is a cataogory also indefinte loop, that's means that
-# the the number of times that loop is executed is unkown, opposite
+# "while" loop
+# "while" loop is a category also an indefinite loop, that means that
+# the number of times that loop is executed is unknown, the opposite
 # to for loop.
-# How while loop is executed?
-# example
+# How "while" loop is executed?
+
+# Example
 # x = 1
 # while x < 3:
 #     print(f"x = {x} is less than 3")
