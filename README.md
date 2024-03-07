@@ -28,3 +28,5 @@ To learn more about this course, please check below course contents, all the vid
 [10. Python Basics. Loops and Iterations](https://www.youtube.com/playlist?list=PLD06In0ejHWZ8I7Lj3EARNTqd2Jar7DBZ)
 
 [11. Python Functions](https://www.youtube.com/playlist?list=PLD06In0ejHWZwhkNMIh9u9ovP1L_vDpox)
+
+[12. Python Functional Programming](https://www.youtube.com/playlist?list=PLD06In0ejHWYeEWJSozszSjeZbNvoOXQG)
