@@ -30,3 +30,5 @@ To learn more about this course, please check below course contents, all the vid
 [11. Python Functions](https://www.youtube.com/playlist?list=PLD06In0ejHWZwhkNMIh9u9ovP1L_vDpox)
 
 [12. Python Functional Programming](https://www.youtube.com/playlist?list=PLD06In0ejHWYeEWJSozszSjeZbNvoOXQG)
+
+[13. Decorators](https://www.youtube.com/playlist?list=PLD06In0ejHWb1G35GJPVgwBjaT9K42Rz-)
