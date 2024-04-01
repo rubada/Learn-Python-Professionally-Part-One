@@ -1,6 +1,10 @@
 ![logo](https://github.com/rubada/Learn-Python-Professionally/assets/33088490/b23196c5-4292-469a-a37d-61c144e09155)
 # Learn Python Professionally - Part One
 
+Advance your skills and start your career here, by taking the online courses on Intuidemy. Our first course is a Python course. Python opens many jobs opportunities, such as Data Scientist and Analyst, Machine Learning, Deep Learning, Data Engineer, Automation Tester and more. If Python is what you seek, start here and subscribe to receive notifications about our new courses.
+
+طور مهاراتك وابدأ حياتك المهنية هنا، من خلال حضور الدورات التدريبية على قناتنا. دورتنا الأولى هي دورة بايثون. تفتح بايثون العديد من فرص العمل، مثل عالم ومحلل البيانات، والذكاء الاصطناعي، ومهندس البيانات، ومختبر الأتمتة والمزيد. إذا كانت بايثون هي ما تبحث عنه، فابدأ هنا واشترك لتلقي إشعارات حول دوراتنا الجديدة
+
 To learn more about this course, please check below course contents, all the videos related to this course are on my youtube channel [Intuidemy](https://www.youtube.com/@Intuidemy/playlists).
 
 [1. Introduction.](https://www.youtube.com/playlist?list=PLD06In0ejHWYhfRzBM28tqi4J5vsTrLI6)
@@ -24,3 +28,7 @@ To learn more about this course, please check below course contents, all the vid
 [10. Python Basics. Loops and Iterations](https://www.youtube.com/playlist?list=PLD06In0ejHWZ8I7Lj3EARNTqd2Jar7DBZ)
 
 [11. Python Functions](https://www.youtube.com/playlist?list=PLD06In0ejHWZwhkNMIh9u9ovP1L_vDpox)
+
+[12. Python Functional Programming](https://www.youtube.com/playlist?list=PLD06In0ejHWYeEWJSozszSjeZbNvoOXQG)
+
+[13. Decorators](https://www.youtube.com/playlist?list=PLD06In0ejHWb1G35GJPVgwBjaT9K42Rz-)
