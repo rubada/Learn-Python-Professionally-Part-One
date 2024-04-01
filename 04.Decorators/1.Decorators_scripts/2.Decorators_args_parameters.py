@@ -1,5 +1,5 @@
 # Decorators
-# How to use decorators with parameters?
+# How to use add the function parmeters inside the decorator?
 # The number of parameters in the wrapper should be the same as the number
 # of parameters in the function as shown below:
 
