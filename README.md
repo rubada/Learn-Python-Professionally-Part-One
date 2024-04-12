@@ -32,3 +32,5 @@ To learn more about this course, please check below course contents, all the vid
 [12. Python Functional Programming](https://www.youtube.com/playlist?list=PLD06In0ejHWYeEWJSozszSjeZbNvoOXQG)
 
 [13. Decorators](https://www.youtube.com/playlist?list=PLD06In0ejHWb1G35GJPVgwBjaT9K42Rz-)
+
+#### [Check Learn-Python-Professionally-Part-Two](https://github.com/rubada/Learn-Python-Professionally-Part-Two).
