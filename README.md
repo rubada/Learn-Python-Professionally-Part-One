@@ -1,4 +1,4 @@
-![logo](https://github.com/rubada/Learn-Python-Professionally/assets/33088490/b23196c5-4292-469a-a37d-61c144e09155)
+![logorev1](https://github.com/user-attachments/assets/a93ad440-a8f9-40d4-b353-fef8d2ad5892)
 # Learn Python Professionally - Part One
 
 Advance your skills and start your career here, by taking the online courses on Intuidemy. Our first course is a Python course. Python opens many jobs opportunities, such as Data Scientist and Analyst, Machine Learning, Deep Learning, Data Engineer, Automation Tester and more. If Python is what you seek, start here and subscribe to receive notifications about our new courses.
