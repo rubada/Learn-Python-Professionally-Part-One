@@ -43,10 +43,3 @@ print(add(5, 6))
 
 print(add(2, 3))
 print(add(5, 6))
-
-# Please check the video description for:
-# Lint is attached to this script file on GitHub.
-# Link to the script file where the decorator
-# is defined as a class.
-# Link to the decorator section videos on
-# @intuidemy channel on YouTube.
