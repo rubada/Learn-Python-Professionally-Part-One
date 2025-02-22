@@ -3,7 +3,7 @@
 
 Advance your skills and start your career here, by taking the online courses on Intuidemy. Our first course is a Python course. Python opens many jobs opportunities, such as Data Scientist and Analyst, Machine Learning, Deep Learning, Data Engineer, Automation Tester and more. If Python is what you seek, start here and subscribe to receive notifications about our new courses.
 
-طور مهاراتك وابدأ حياتك المهنية هنا، من خلال حضور الدورات التدريبية على قناتنا. دورتنا الأولى هي دورة بايثون. تفتح بايثون العديد من فرص العمل، مثل عالم ومحلل البيانات، والذكاء الاصطناعي، ومهندس البيانات، ومختبر الأتمتة والمزيد. إذا كانت بايثون هي ما تبحث عنه، فابدأ هنا واشترك لتلقي إشعارات حول دوراتنا الجديدة
+طور مهاراتك وابدأ حياتك المهنية هنا، من خلال حضور الدورات التدريبية على قناتنا. دورتنا الأولى هي دورة بايثون. تفتح بايثون العديد من فرص العمل، مثل عالم ومحلل البيانات، والذكاء الاصطناعي، ومهندس البيانات، ومختبر الأتمتة والمزيد. إذا كانت بايثون هي ما تبحث عنه، فابدأ هنا واشترك لتلقي إشعارات حول دوراتنا الجديدة.
 ### Check our other courses:
 #### [Learn-Python-Professionally-Part-Two](https://github.com/rubada/Learn-Python-Professionally-Part-Two).
 #### [Learn-Python-Professionally-Part-Three](https://github.com/rubada/Learn-Python-Professionally-Part-Three).
